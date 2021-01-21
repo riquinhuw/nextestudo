@@ -24,6 +24,12 @@ function Home(){
                 <a class="m-1">Acessar API tempo</a>
             </Link> 
             </div>
+
+            <div class="m-2 max-h-10 max-w-max rounded border-2 bg-blue-600 text-center">
+            <Link href="/jogarttt">
+                <a class="m-1">Jogar Jogo da Velha</a>
+            </Link> 
+            </div>
         </div>
 
         <div>
