@@ -8,12 +8,19 @@ Estou utilizando como base os videos do [Felipe Deschamps](https://www.youtube.c
 
 ## Tecnologias utilizadas
 
-* Next Js - Base da aplicação(react)
+* Next Js - Base da aplicação(React)
 * Tailwind - Parte visual
 
 ## Metas de curto prazo
 
 * [ ] - Melhorar a parte visual das páginas, tirando o fundo branco e letras pretas.
-* [ ] - Melhorar a navegação, para ter uma cara de "site"
-* [ ] - Implementar alguma interação com o usuário(ex:jogo da velha)
-* [ ] - Colocar firulas visuais no readme
+* [ ] - Melhorar a navegação, para ter uma cara de "site".
+* [X] - Implementar alguma interação com o usuário(ex:jogo da velha).
+* [ ] - Colocar firulas visuais no readme.
+
+## Metas de longo prazo
+
+* [ ] - Implementar um sistema de login.
+* [ ] - Implementar uma interação online, onde envolva duas ou mais pessoas.
+* [ ] - Criar um "Blog" para postar os updates
+* [ ] - Criar integração com algum serviço(ex: Discord, Telegram)
