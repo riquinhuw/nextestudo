@@ -1,38 +1,40 @@
 import Link from 'next/link';
-import Image from 'next/image'
+
 
 
 function Home(){
-    return (<div class="p-6">
-        <h1 class="text-indigo-600 text-6xl">Home</h1>
+    return (<div class="max-h-full w-full p-6 bg-blue-400">
+        <h1 class="h-50 w-44  text-indigo-100 text-6xl text-center">Home</h1>
 
-        <div class="p-3 " >
-            <div>
+        <div class="p-3" >
+            <div class=" m-2 max-h-10 max-w-max rounded border-2 bg-blue-600 text-center">
             <Link href="/sobre">
-                <a>Acessar página Sobre</a>
+                <a class="m-1">Acessar página Sobre</a>
             </Link>
             </div>
 
-            <div>
+            <div class="m-2 max-h-10 max-w-max rounded border-2 bg-blue-600 text-center">
             <Link href="/tempo">
-                <a>Acessar página tempo</a>
+                <a class="m-1">Acessar página tempo</a>
             </Link>
             </div>
 
-            <div>
+            <div class="m-2 max-h-10 max-w-max rounded border-2 bg-blue-600 text-center">
             <Link href="/api/tempo">
-                <a>Acessar API tempo</a>
+                <a class="m-1">Acessar API tempo</a>
             </Link> 
             </div>
         </div>
 
         <div>
             <div>
-                <div>
-                    <img class="h-48 "   src="/img/nextLogo.png"></img>
+                <div class="h-32 w-32">
+                    <img class="h-32"   src="/img/nextLogo.png"></img>
                 </div>
                 <div>
-                    <div class="uppercase text-indigo-500">Frase em destaque</div>
+                    <p class="uppercase  m-2">
+                        Site feito por <a class="text-blue-800" href="https://github.com/riquinhuw">Carlos H</a>
+                    </p>
                 </div>
             </div>
 
