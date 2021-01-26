@@ -13,7 +13,7 @@ Estou utilizando como base os videos do [Felipe Deschamps](https://www.youtube.c
 
 ## Metas de curto prazo
 
-* [ ] - Melhorar a parte visual das páginas, tirando o fundo branco e letras pretas.
+* [X] - Melhorar a parte visual das páginas, tirando o fundo branco e letras pretas.
 * [ ] - Melhorar a navegação, para ter uma cara de "site".
 * [X] - Implementar alguma interação com o usuário(ex:jogo da velha).
 * [ ] - Colocar firulas visuais no readme.
@@ -24,3 +24,5 @@ Estou utilizando como base os videos do [Felipe Deschamps](https://www.youtube.c
 * [ ] - Implementar uma interação online, onde envolva duas ou mais pessoas.
 * [ ] - Criar um "Blog" para postar os updates
 * [ ] - Criar integração com algum serviço(ex: Discord, Telegram)
+* [ ] - Criar uma interface mais "profissional"
+* [ ] - Não desistir
