@@ -25,7 +25,7 @@ export default function About(props) {
         <main>
           <h1 className="title">About Page</h1>
           {!profile ? (
-            <a href="/">Login to continue</a>
+            <a href="/login">Login to continue</a>
           ) : (
             <div>
               <div style={{ margin: '.5rem 0rem' }}>

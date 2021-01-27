@@ -7,9 +7,9 @@ import Footer from '../footer/Footer';
 
 export default function Layout({
   children,
-  title = 'Next.js with JWT Authentication | A boilerplate JWT Authentication and Next.js from dyarfi.github.io',
-  description = 'Next.js with JWT Authentication | A boilerplate JWT Authentication and Next.js from dyarfi.github.io',
-  keywords = 'Next.js, JWT, Json Web Tokens, Authentication, Application',
+  title = 'Site de estudos do Carlos H',
+  description = 'Carlos decidiu criar um site para praticar os seus conhecimentos, caso que esteja vendo isso, ele já está na ativa',
+  keywords = 'Next.js, JWT, Json Web Tokens, Authentication, Application,Chdribeiro',
   type = 'website',
   url = '/',
   image = '/nextjs.svg',
