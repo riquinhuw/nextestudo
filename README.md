@@ -26,3 +26,12 @@ Estou utilizando como base os videos do [Felipe Deschamps](https://www.youtube.c
 * [ ] - Criar integração com algum serviço(ex: Discord, Telegram)
 * [ ] - Criar uma interface mais "profissional"
 * [ ] - Não desistir
+
+
+## Materiais utilizados
+
+* [Felipe Deschamps](https://www.youtube.com/watch?v=IyRUn0GocEc&list=PLMdYygf53DP7FJzPslLnmqp0QylyFfA8a&index=2)
+
+* [Introdução ao Reactjs - Jogo Da Velha](https://pt-br.reactjs.org/tutorial/tutorial.html)
+
+* [JWT User Authentication in Next.js Web Application](https://medium.com/swlh/jwt-json-web-tokens-user-authentication-in-next-js-web-application-51deab8f2e96)
