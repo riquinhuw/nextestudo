@@ -17,6 +17,7 @@ Estou utilizando como base os videos do [Felipe Deschamps](https://www.youtube.c
 * [ ] - Melhorar a navegação, para ter uma cara de "site".
 * [X] - Implementar alguma interação com o usuário(ex:jogo da velha).
 * [ ] - Colocar firulas visuais no readme.
+* [ ] - Entender o .jsx
 
 ## Metas de longo prazo
 
@@ -26,6 +27,7 @@ Estou utilizando como base os videos do [Felipe Deschamps](https://www.youtube.c
 * [ ] - Criar integração com algum serviço(ex: Discord, Telegram)
 * [ ] - Criar uma interface mais "profissional"
 * [ ] - Não desistir
+* [ ] - Alterar o padrão de projeto para todo o layout usar o .jsx
 
 
 ## Materiais utilizados
@@ -35,3 +37,5 @@ Estou utilizando como base os videos do [Felipe Deschamps](https://www.youtube.c
 * [Introdução ao Reactjs - Jogo Da Velha](https://pt-br.reactjs.org/tutorial/tutorial.html)
 
 * [JWT User Authentication in Next.js Web Application](https://medium.com/swlh/jwt-json-web-tokens-user-authentication-in-next-js-web-application-51deab8f2e96)
+
+* [Componentes Tailwind](https://tailwindcomponents.com/)

@@ -20,7 +20,7 @@ export default function About(props) {
   }
 
   return (
-    <Layout title="Next.js with JWT Authentication | About Page">
+    <Layout title="Site do Carlos | Sobre">
       <div className="container">
         <main>
           <h1 className="title">About Page</h1>

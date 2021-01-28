@@ -209,7 +209,7 @@ export default function Home(props) {
   }
 
   return (
-    <Layout title="Next.js with JWT Authentication | Home Page">
+    <Layout title="Pagina do Carlos | Home Page">
       <div className="container">
         <main>
           <h1 className="title">
