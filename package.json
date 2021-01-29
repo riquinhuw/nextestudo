@@ -7,14 +7,21 @@
     "dev": "next dev"
   },
   "keywords": [],
-  "author": "",
+  "author": "Carlos H",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^2.15.0",
     "autoprefixer": "^10.2.3",
+    "bcryptjs": "^2.4.3",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
     "next": "^10.0.5",
     "postcss": "^8.2.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "tailwindcss": "^2.0.2"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.15.0"
   }
 }
