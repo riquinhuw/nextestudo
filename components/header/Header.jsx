@@ -6,7 +6,9 @@ import Link from 'next/link';
 const Header = ({ props }) => {
   return (
     <>
-      <button class="uppercase px-8 py-2 rounded bg-blue-600 text-blue-50 max-w-max shadow-sm hover:shadow-lg">button</button>
+    <Link href="/login">
+      <button class="uppercase px-8 py-2 rounded bg-blue-600 text-blue-50 max-w-max shadow-sm hover:shadow-lg">Login</button>
+    </Link>
     </>
   );
 };

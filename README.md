@@ -10,6 +10,7 @@ Estou utilizando como base os videos do [Felipe Deschamps](https://www.youtube.c
 
 * Next Js - Base da aplicação(React)
 * Tailwind - Parte visual
+* Prisma - CRUD no banco Postgree
 
 ## Metas de curto prazo
 
@@ -18,6 +19,8 @@ Estou utilizando como base os videos do [Felipe Deschamps](https://www.youtube.c
 * [X] - Implementar alguma interação com o usuário(ex:jogo da velha).
 * [ ] - Colocar firulas visuais no readme.
 * [ ] - Entender o .jsx
+* [X] - Conectar a um banco de dados
+* [ ] - Tela de Cadastrado
 
 ## Metas de longo prazo
 

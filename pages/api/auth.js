@@ -1,5 +1,7 @@
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
+const { PrismaClient } = require("@prisma/client");
+const prisma = new PrismaClient();
 
 /* JWT secret key */
 const KEY = process.env.JWT_KEY;
@@ -31,6 +33,15 @@ const USERS = [
   },
 ];
 
+async function buscarUserEmail(emailInput) {
+  const retorno = await prisma.usuarios.findUnique({where:{email:emailInput}});
+  await prisma.$disconnect();
+  console.dir(retorno, { depth: null })
+  return retorno;
+}
+
+
+
 export default (req, res) => {
   const { method } = req;
   try {
@@ -46,10 +57,8 @@ export default (req, res) => {
           });
         }
         /* Check user email in database */
-        const user = USERS.find(user => {
-          return user.email === email;
-        });
-        /* Check if exists */
+        buscarUserEmail(email).then(user=>{
+          /* Check if exists */
         if (!user) {
           /* Send error with message */
           res.status(400).json({ status: 'error', error: 'User Not Found' });
@@ -57,8 +66,8 @@ export default (req, res) => {
         /* Define variables */
         const userId = user.id,
           userEmail = user.email,
-          userPassword = user.password,
-          userCreated = user.createdAt;
+          userPassword = user.senha,
+          userCreated = user.dhcriacao;
         /* Check and compare password */
         bcrypt.compare(password, userPassword).then(isMatch => {
           /* User matched */
@@ -91,6 +100,8 @@ export default (req, res) => {
               .json({ status: 'error', error: 'Password incorrect' });
           }
         });
+          });
+        
         break;
       case 'PUT':
         break;
